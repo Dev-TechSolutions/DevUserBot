@@ -9,8 +9,8 @@ An Advance Multi-Featured Telegram Userbot based on Telethon.
 ### Deploy to Heroku 
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Samarth-Dubey/DevUserBot)
 
-### Deploy on Railway 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Samarth-Dubey/DevUserBot)
+### Deploy on Railway (Soon) 
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=)
 
 ### Self-Host (Soon)
   - [Checkout This]()

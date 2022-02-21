@@ -32,10 +32,10 @@ def close_connection(*_):
 
 signal.signal(signal.SIGTERM, close_connection)
 
-if Config.UPSTREAM_REPO == "badcat":
-    UPSTREAM_REPO_URL = "https://github.com/Jisan09/catuserbot"
-elif Config.UPSTREAM_REPO == "goodcat":
-    UPSTREAM_REPO_URL = "https://github.com/TgCatUB/catuserbot"
+if Config.UPSTREAM_REPO == "https://github.com/Samarth-Dubey/DevUserBot":
+    UPSTREAM_REPO_URL = "https://github.com/Samarth-Dubey/DevUserBot"
+elif Config.UPSTREAM_REPO == "https://github.com/Samarth-Dubey/DevUserBot":
+    UPSTREAM_REPO_URL = "https://github.com/Samarth-Dubey/DevUserBot"
 else:
     UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
 

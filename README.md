@@ -20,5 +20,5 @@ An Advance Multi-Featured Telegram Userbot based on Telethon.
 The Project is currently under Development Stage, So Some Functions or Features may be Unstable
 
 ## Credits
-   - Thanks to [@Samarth](https://github.com/samarth-dubey) For Source Edit
+   - Thanks to [Developer](https://github.com/samarth-dubey) For Source Edit
    - A Big Thanks to all Devs of [CatUserbot](https://github.com/TgCatUB/catuserbot) For RAW Source Code

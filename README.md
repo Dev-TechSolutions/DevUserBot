@@ -7,7 +7,7 @@ An Advance Multi-Featured Telegram Userbot based on Telethon.
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Samarth-Dubey/DevUserBot)
 
 ### Self-Host (Soon)
-  - [check this]()
+  - [Checkout This]()
   
 ## Support
    <a href="https://t.me/"><img src="https://img.shields.io/badge/Channel%20Support%3F-Soon-yellow?&style=flat-square?&logo=telegram" width=220px></a></p>

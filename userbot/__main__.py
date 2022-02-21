@@ -38,7 +38,7 @@ async def startup_process():
     print("Yay your Userbot is Working Successfully.!!!")
     print(
         f"Congratulations, now type {cmdhr}alive to see message if devub is live\
-        \nIf you need assistance, head to https://t.me/"
+        \nIf you need assistance, head to https://t.me/DevTgUb_Support/"
     )
     print("➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖")
     await verifyLoggerGroup()

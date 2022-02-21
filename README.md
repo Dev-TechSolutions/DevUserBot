@@ -6,10 +6,10 @@ An Advance Multi-Featured Telegram Userbot based on Telethon.
 </p>
 
 ## Methods to Deploy DevUserbot
-### Heroku Deploy
+### Deploy to Heroku 
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Samarth-Dubey/DevUserBot)
 
-### Railway Deploy
+### Deploy on Railway 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Samarth-Dubey/DevUserBot)
 
 ### Self-Host (Soon)

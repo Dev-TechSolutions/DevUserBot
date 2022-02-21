@@ -12,7 +12,7 @@ from telethon.errors.rpcerrorlist import (
 )
 from telethon.events import CallbackQuery
 
-from userbot import StartTime, devub
+from userbot import StartTime, devub, catversion
 
 from ..Config import Config
 from ..core.managers import edit_or_reply

@@ -63,7 +63,7 @@ async def startupmessage():
                 BOTLOG_CHATID,
                 "https://telegra.ph/file/80c25e0e397d7cea278f1.jpg",
                 caption="**Yay! Your Userbot has been Started Successfully.**",
-                buttons=[(Button.url("Support", "https://t.me/DevUserbot_Support"),)],
+                buttons=[(Button.url("Support", "https://t.me/DevTgUb_Support"),)],
             )
     except Exception as e:
         LOGS.error(e)

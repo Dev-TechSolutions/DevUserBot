@@ -10,7 +10,7 @@ from .core.session import devub
 from .helpers.utils.utils import runasync
 from .sql_helper.globals import addgvar, delgvar, gvarstatus
 
-__version__ = "3.0.6"
+__version__ = "3.0"
 __license__ = "GNU Affero General Public License v3.0"
 __author__ = "DevUserBot <https://github.com/Samarth-Dubey/DevUserBot>"
 __copyright__ = f"DevUserBot Copyright (C) 2021 - 2022  {__author__}"
@@ -21,7 +21,7 @@ LOGS = logging.getLogger("DevUserbot")
 bot = devub
 
 StartTime = time.time()
-devversion = "3.0.6"
+devversion = "3.0"
 
 
 def close_connection(*_):

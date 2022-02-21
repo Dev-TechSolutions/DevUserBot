@@ -33,9 +33,9 @@ heroku_api = "https://api.heroku.com"
 UPSTREAM_REPO_BRANCH = Config.UPSTREAM_REPO_BRANCH
 
 REPO_REMOTE_NAME = "temponame"
-IFFUCI_ACTIVE_BRANCH_NAME = "master"
+IFFUCI_ACTIVE_BRANCH_NAME = "main"
 NO_HEROKU_APP_CFGD = "no heroku application found, but a key given? 😕 "
-HEROKU_GIT_REF_SPEC = "HEAD:refs/heads/master"
+HEROKU_GIT_REF_SPEC = "HEAD:refs/heads/main"
 RESTARTING_APP = "re-starting heroku application"
 IS_SELECTED_DIFFERENT_BRANCH = (
     "looks like a custom branch {branch_name} "
@@ -159,7 +159,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
     else:
         remote = repo.create_remote("heroku", heroku_git_url)
     try:
-        remote.push(refspec="HEAD:refs/heads/master", force=True)
+        remote.push(refspec="HEAD:refs/heads/main", force=True)
     except Exception as error:
         await event.edit(f"{txt}\n**Error log:**\n`{error}`")
         return repo.__del__()
@@ -169,7 +169,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             event, "`Build failed!\n" "Cancelled or there were some errors...`"
         )
     try:
-        remote.push("master:main", force=True)
+        remote.push("main:main", force=True)
     except Exception as error:
         await event.edit(f"{txt}\n**Here is the error log:**\n`{error}`")
         return repo.__del__()
@@ -281,7 +281,7 @@ async def upstream(event):
 )
 async def upstream(event):
     event = await edit_or_reply(event, "`Pulling the nekopack repo wait a sec ....`")
-    off_repo = "https://github.com/Tgdevub/nekopack"
+    off_repo = "https://github.com/Samarth-Dubey/DevUserBot"
     os.chdir("/app")
     try:
         txt = (
@@ -300,9 +300,9 @@ async def upstream(event):
         repo = Repo.init()
         origin = repo.create_remote("upstream", off_repo)
         origin.fetch()
-        repo.create_head("master", origin.refs.master)
-        repo.heads.master.set_tracking_branch(origin.refs.master)
-        repo.heads.master.checkout(True)
+        repo.create_head("main", origin.refs.main)
+        repo.heads.main.set_tracking_branch(origin.refs.main)
+        repo.heads.main.checkout(True)
     try:
         repo.create_remote("upstream", off_repo)
     except BaseException:

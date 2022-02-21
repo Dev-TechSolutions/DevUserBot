@@ -12,7 +12,7 @@ from .sql_helper.globals import addgvar, delgvar, gvarstatus
 
 __version__ = "3.0.6"
 __license__ = "GNU Affero General Public License v3.0"
-__author__ = "DevUserBot <https://github.com/TgCatUB/catuserbot>"
+__author__ = "DevUserBot <https://github.com/Samarth-Dubey/DevUserBot>"
 __copyright__ = f"DevUserBot Copyright (C) 2021 - 2022  {__author__}"
 
 devub.version = __version__

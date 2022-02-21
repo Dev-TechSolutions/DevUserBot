@@ -21,4 +21,4 @@ The Project is currently under Development Stage, So Some Functions or Features 
 
 ## Credits
    - Thanks to [@Samarth](https://github.com/samarth-dubey) For Source Edit
-   - A Big Thanks to all Devs of CatUserbot [Repository](https://github.com/TgCatUB/catuserbot) For RAW Source Code
+   - A Big Thanks to all Devs of [CatUserbot](https://github.com/TgCatUB/catuserbot) For RAW Source Code

@@ -62,7 +62,7 @@ async def startupmessage():
             Config.devubLOGO = await devub.tgbot.send_file(
                 BOTLOG_CHATID,
                 "https://telegra.ph/file/80c25e0e397d7cea278f1.jpg",
-                caption="**Your DevUserbot has been started successfully.**",
+                caption="**Yay! Your Userbot has been Started Successfully.**",
                 buttons=[(Button.url("Support", "https://t.me/DevUserbot_Support"),)],
             )
     except Exception as e:

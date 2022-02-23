@@ -1,13 +1,12 @@
-## Attention!
+<p align="center">
+  <img src="https://telegra.ph/file/80c25e0e397d7cea278f1.jpg">
+</p>
+
 ## Attention!
 ⚠ Project Paused Temporarily due to Some Reason...
 
 # DevUserbot (BETA)
 An Advance Multi-Featured Telegram Userbot based on Telethon.
-
-<p align="center">
-  <img src="https://telegra.ph/file/80c25e0e397d7cea278f1.jpg">
-</p>
 
 ## Methods to Deploy DevUserbot
 ### Deploy to Heroku 

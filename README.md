@@ -13,7 +13,7 @@ An Advance Multi-Featured Telegram Userbot based on Telethon.
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=)
 
 ### Self-Host (Soon)
-  - [Checkout This]()
+  - [![Checkout This]()
   
 
 ## Support

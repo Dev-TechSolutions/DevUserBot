@@ -17,8 +17,8 @@ An Advance Multi-Featured Telegram Userbot based on Telethon.
   
 
 ## Support
-   <a href="https://t.me/DevTgUb_Official/"><img src="https://img.shields.io/badge/Channel%20Support%3F-Soon-yellow?&style=flat-square?&logo=telegram" width=220px></a></p>
-   <a href="https://t.me/DevTgUb_Support/"><img src="https://img.shields.io/badge/Group%20Support%3F-Soon-yellow?&style=flat-square?&logo=telegram" width=220px></a></p>
+   <a href="https://t.me/DevTgUb_Official/"><img src="https://img.shields.io/badge/Channel%20Support%3F-Yes-black?&style=flat-square?&logo=telegram" width=220px></a></p>
+   <a href="https://t.me/DevTgUb_Support/"><img src="https://img.shields.io/badge/Group%20Support%3F-Yes-black?&style=flat-square?&logo=telegram" width=220px></a></p>
    
 ## Inspiration
    - [CatUserbot](https://github.com/TgCatUB/catuserbot)

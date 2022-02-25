@@ -263,7 +263,7 @@ async def upstream(event):
         await print_changelogs(event, ac_br, changelog)
         await event.delete()
         return await event.respond(
-            f"do `{cmdhd}update deploy` to update the Devuserbot"
+            f"do `{cmdhd}update deploy` to update the DevUserbot"
         )
 
     if force_update:
@@ -280,8 +280,8 @@ async def upstream(event):
     pattern="update deploy$",
 )
 async def upstream(event):
-    event = await edit_or_reply(event, "`Pulling the nekopack repo wait a sec ....`")
-    off_repo = "https://github.com/Tgdevub/nekopack"
+    event = await edit_or_reply(event, "`Pulling the Repo wait a sec ....`")
+    off_repo = "https://github.com/Samarth-Dubey/DevUserBot"
     os.chdir("/app")
     try:
         txt = (
@@ -312,30 +312,3 @@ async def upstream(event):
     ups_rem.fetch(ac_br)
     await event.edit("`Deploying userbot, please wait....`")
     await deploy(event, repo, ups_rem, ac_br, txt)
-
-
-@devub.dev_cmd(
-    pattern="badcat$",
-    command=("badcat", plugin_category),
-    info={
-        "header": "To update to badcat( for extra masala and gali).",
-        "usage": "{tr}badcat",
-    },
-)
-async def variable(var):
-    "To update to badcat( for extra masala and gali)."
-    if Config.HEROKU_API_KEY is None:
-        return await edit_delete(
-            var,
-            "Set the required var in heroku to function this normally `HEROKU_API_KEY`.",
-        )
-    if Config.HEROKU_APP_NAME is not None:
-        app = Heroku.app(Config.HEROKU_APP_NAME)
-    else:
-        return await edit_delete(
-            var,
-            "Set the required var in heroku to function this normally `HEROKU_APP_NAME`.",
-        )
-    heroku_var = app.config()
-    await edit_or_reply(var, "`Changing goodcat to badcat wait for 2-3 minutes.`")
-    heroku_var["UPSTREAM_REPO"] = "https://github.com/Jisan09/Devuserbot"

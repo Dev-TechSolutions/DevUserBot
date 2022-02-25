@@ -21,7 +21,7 @@ LOGS = logging.getLogger("DevUserbot")
 bot = devub
 
 StartTime = time.time()
-devversion = "3.0.6"
+devversion = "3.0"
 
 
 def close_connection(*_):
@@ -33,8 +33,6 @@ def close_connection(*_):
 signal.signal(signal.SIGTERM, close_connection)
 
 if Config.UPSTREAM_REPO == "https://github.com/Samarth-Dubey/DevUserBot":
-    UPSTREAM_REPO_URL = "https://github.com/Samarth-Dubey/DevUserBot"
-elif Config.UPSTREAM_REPO == "https://github.com/Samarth-Dubey/DevUserBot":
     UPSTREAM_REPO_URL = "https://github.com/Samarth-Dubey/DevUserBot"
 else:
     UPSTREAM_REPO_URL = Config.UPSTREAM_REPO

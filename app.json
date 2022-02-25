@@ -15,12 +15,20 @@
       "description": "Your Name",
       "value": ""
     },
+    "APP_ID": {
+      "description": "Get this value from my.telegram.org!",
+      "value": ""
+    },
     "API_HASH": {
       "description": "Get this value from my.telegram.org!",
       "value": ""
     },
-    "APP_ID": {
-      "description": "Get this value from my.telegram.org!",
+    "STRING_SESSION": {
+      "description": "Get your String-Session from https://replit.com/@epurpose0/DevUserbot-String-Session-Generator",
+      "value": ""
+    },
+    "TG_BOT_TOKEN": {
+      "description": "Make a Bot at https://telegram.me/BotFather and Enter it here.",
       "value": ""
     },
     "COMMAND_HAND_LER": {
@@ -28,37 +36,38 @@
       "value": ".",
       "required": false
     },
-    "DATABASE_URL": {
-      "description": "Get this value from https://customer.elephantsql.com/signup.",
-      "value": "",
-    },
     "ENV": {
-      "description": "Setting this to ANYTHING will enable Heroku.",
+      "description": "Setting this to ANYTHING will enable heroku.",
       "value": "ANYTHING",
       "required": false
     },
     "HEROKU_API_KEY": {
       "description": "Required for updating the bot and other stuff get it from https://dashboard.heroku.com/account",
       "value": "",
+      "required": false
     },
     "HEROKU_APP_NAME": {
       "description": "YOUR app name ",
       "value": "",
       "required": false
     },
-    "STRING_SESSION": {
-      "description": "Get your String-Session from https://replit.com/@epurpose0/DevUserbot-String-Session-Generator",
-      "value": ""
-    },
-    "TG_BOT_TOKEN": {
-      "description": "Make a Bot at https://telegram.me/BotFather and Enter the token here.",
-      "value": ""
-    },
     "TZ": {
       "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
       "value": "Asia/Kolkata",
       "required": false
     },
+    "UPSTREAM_REPO": {
+      "description": "If you need custom deploy then type your git Repo Link",
+      "value": "https://github.com/Samarth-Dubey/DevUserBot",
+      "required": false
+    }
+  },
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "12"
+    }
+  }],
   "buildpacks": [{
     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
   },{

@@ -1,26 +1,26 @@
 {
   "name": "DevUserbot",
-  "description": "An Advance Multi-Featured Telegram Userbot based on Telethon",
+  "description": "An Advance Multi-Featured Telegram Userbot based on Telethon.",
   "logo": "https://telegra.ph/file/80c25e0e397d7cea278f1.jpg/",
   "keywords": [
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Samarth-Dubey/DevUserBot/",
-  "website": "heroku/python",
-  "success_url": "https://github.com/Samarth-Dubey/DevUserBot/",
+  "repository": "https://github.com/Samarth-Dubey/DevUserBot",
+  "website": "#TODO",
+  "success_url": "#TODO",
   "env": {
     "ALIVE_NAME": {
-      "description": "give your name",
+      "description": "Your Name",
       "value": ""
     },
     "APP_ID": {
-      "description": "Get this value from my.telegram.org! Please do not steal",
+      "description": "Get this value from my.telegram.org!",
       "value": ""
     },
     "API_HASH": {
-      "description": "Get this value from my.telegram.org! Please do not steal",
+      "description": "Get this value from my.telegram.org!",
       "value": ""
     },
     "STRING_SESSION": {
@@ -28,11 +28,11 @@
       "value": ""
     },
     "TG_BOT_TOKEN": {
-      "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the token of your bot.Worth it. Get it.",
+      "description": "Make a Bot at https://telegram.me/BotFather and Enter it here.",
       "value": ""
     },
     "COMMAND_HAND_LER": {
-      "description": "Set this one with only one the symbol to use it before your command to run like . , ' `",
+      "description": "Set this with the symbol to use it for your command to Run.",
       "value": ".",
       "required": false
     },
